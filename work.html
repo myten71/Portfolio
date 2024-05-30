@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Simen W. Nysæther</title>
+	<link href="stylesheet/styles.css" rel="stylesheet">
+    <link href="stylesheet/work.css" rel="stylesheet"> <!---Page specific CSS for organization-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
+
+</head>
+<body>
+
+	<!---mobile overlay-->
+	<div class="overlay">
+		<div class="hamburgeroverlay">
+			<!-- Close button with onclick to close the overlay -->
+			<svg id="hamburgerclose" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6" onclick="closeOverlay()">
+			  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		  </div>
+		  <div class="linksoverlaywrapper">
+			<ul class="navlinks-overlay">
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="index.html">Home</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="contact.html">Contact</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="work.html">Work</a></li>
+			  </ul>
+	</div>
+	<div class="socialsoverlaywrapper">
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	  </div>
+	
+	<header>
+		<div class="navlinkwrapper">
+			<ul class="navlinks">
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="index.html">Home</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="contact.html">Contact</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor active" href="work.html">Work</a></li>
+			  </ul>
+		<div class="linkdivider"></div>
+		<div class="socialswrapper">
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	</div>
+		<div onclick="toggleOverlay()" class="hamburger"><!---Heroicons.com---><svg id="hamburgericon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+			<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+		  </svg>
+		  
+		  </div>
+	</header>
+	
+    <div class="container">
+        <div class="row">
+            <div class="workcontainer">
+                <div class="col-md-4 col-sm-12 work1 text-center">
+                    <h1>Project #1</h1>
+                    <img class="workimage" src="img/mockup1.jpg">
+                    <button class="projectbutton">Se prosjekt</button>
+                </div>
+                <div class="col-md-4 col-sm-12 work2 text-center">
+                    <h2>Project #2</h2>
+                    <img class="workimage" src="img/mockup1.jpg">
+                    <button class="projectbutton">Se prosjekt</button>
+                </div>
+                <div class="col-md-4 col-sm-12 work3 text-center">
+                    <h3>Project #3</h3>
+                    <img class="workimage" src="img/mockup1.jpg">  
+                    <button class="projectbutton">Se prosjekt</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="overlay.js"></script>
+</body>
+</html>

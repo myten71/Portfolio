@@ -1,0 +1,163 @@
+
+body,html{
+  height:100%;
+  margin:0;padding:0;
+  OVERFLOW:HIDDEN;
+}
+
+body {
+  background: #000428;  
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428); 
+  margin:0;padding:0;
+   overflow:hidden;
+}
+
+.btn {
+  border-radius:5px;
+}
+
+#ipod {
+  position: relative;
+  box-shadow: 
+  0 0 10px 10px #92ccff
+}
+
+#scandoland {
+  position:relative;
+}
+
+h2 {
+  font-size:20px;
+  color:white;
+  font-family: 'Arvo', serif;
+
+}
+
+
+
+#caret-down {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  padding: 10px;
+  font-size: 20px;
+  color:white;
+}
+
+
+#volume2 {
+  border-radius:50%;
+  width:67%;
+  
+}
+
+
+#knapper {
+
+border-radius:15px;
+margin-top:20px;
+border: none;
+outline: none;
+}
+
+#albumlist {
+  color:white;
+}
+
+button:focus {
+  outline: none;
+}
+
+#knapper2 {
+  margin-top:10px;
+}
+
+.knapper {
+  border: none;
+  outline: none;
+}
+
+#volume  {
+
+  margin-right:10px;
+}
+#bak, #play, #pause, #frem{
+  color:white;
+  background-color:black;
+  padding:10px;
+  border: none;
+  outline: none;
+}
+
+#tittel {
+color:white;
+font-size:40px;
+margin-bottom:10px;
+}
+
+p {
+
+  font-size:12px;
+}
+
+#ipod {
+
+  background-color:#000428; 
+ padding:50px;
+  padding-bottom:5px;
+  border-radius:5px;
+}
+
+
+
+#track-list {
+  width: 100%;
+background-color: transparent;
+color:none;
+}
+
+
+
+#track {
+  color:white;
+  background-color:transparent;
+}
+
+h,p {
+  color:white;
+  font-size:15px;
+
+}
+
+#sanginfo {
+  margin-top:25px;
+}
+
+h {
+  font-family: 'Bebas Neue', cursive;
+  font-size:20px;
+}
+
+p {
+  font-family: 'Arvo', serif;
+
+}
+
+#flip {
+  background-color: white;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  #ipod{
+   PADDING-top:20px;
+   overflow:hidden;
+   padding-left:-100px;
+   padding-right:-100px;
+
+  }
+}
+
+

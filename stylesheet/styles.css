@@ -1,0 +1,1129 @@
+
+
+
+* {
+    font-family:'Nunito';
+    margin:0;
+    line-height:calc(1em + 0.5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    margin-bottom:90px;
+}
+
+/* hamburger icon */
+
+#hamburgericon, #hamburgerclose {
+    color:#FF6B6B;
+}
+
+body {
+font-family:'Nunito', sans-serif;
+background-color: #070a13 !important;
+color:gray !important;
+height:100vh;
+overflow-x: hidden;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    flex-direction:row !important;
+    font-weight:bold !important;
+}
+
+#certificationwrapper {
+    display:flex;
+    justify-content: center;
+}
+
+h1,h2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    font-size:2em !important;
+    text-transform:uppercase;
+}
+
+h6 {
+    font-size:2em !important;
+}
+
+p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+span {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:5px;
+    color:#56545e;
+}
+
+
+/* bio picture */
+#biopicture {
+    border-radius:50%;
+    margin-bottom:12px;
+    height:200px
+}
+
+#profilbilde2 {
+    height:600px !important;
+    width:100% !important;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
+
+/* sections */
+
+
+/* section1 */
+.section1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-bottom:0px;
+    margin-top:40px;
+}
+
+#wave{
+    width:30px;
+    height:30px;
+    margin-left:5px;
+}
+
+
+
+
+#title {
+    color:#FF6B6B;
+    display:flex;
+    text-align:center;
+}
+
+.overlay-open {
+    overflow: hidden;
+  }
+
+ 
+  .button {
+    display:flex;
+    justify-content: center;
+    background-color: #FF6B6B;
+    color:black;
+    border-radius:20px;
+padding:10px;
+width: 35%;
+    text-align: center;
+    margin-bottom:10px;
+    text-decoration:none;
+  }
+
+  .button:hover {
+    background-color: white;
+  }
+
+
+
+button:hover {
+    filter:grayscale(20%);
+}
+
+/*section2 */
+.section2wrapper {
+display:flex;
+flex-direction:column;
+
+}
+
+.section2 {
+    display:flex;
+    margin-bottom:40px;
+}
+
+.skillsheading {
+    font-size:3em !important;
+    margin-bottom:20px;
+    color: #FF6B6B;
+    letter-spacing:1.5px;
+    display:flex;
+    margin-left:180px;
+}
+
+/* SKILLS PROGRESS BAR SECTION */
+
+.progress-bar {
+    background-color: #FF6B6B;
+    width:600px;
+    height:10px;
+    border-radius:5px;
+    margin-bottom:40px;
+}
+
+.progress-bar div {
+    height:5px;
+    border-radius:5px;
+    width:0%;
+}
+
+.progress-bar div span {
+
+}
+
+.html {
+    background:#FF6B6B;
+    animation:html 1s linear forwards;
+}
+
+
+
+.css {
+    background:#FF6B6B;
+    animation:css 1s linear forwards;
+}
+
+
+
+.javascript {
+    background:#FF6B6B;
+    animation:javascript 1s linear forwards;
+}
+
+
+
+.mysql {
+    background:#FF6B6B;
+    animation:mysql 1s linear forwards;
+}
+
+
+
+.skillsicons :first-child {
+  font-size:40px !important;
+}
+
+
+
+.fa-html5, .fa-css3-alt, .fa-square-js, .icon-database {
+    color:#fff !important;}
+
+
+@keyframes html {
+    100% {
+        width:80%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width:76%;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        width:40%;
+    }
+}
+@keyframes mysql {
+    100% {
+        width:70%;
+    }
+}
+
+.educerskillswrapper {
+    display:flex;
+    justify-content: center;
+    margin-left:-200px;
+    align-items: center;
+}
+
+
+
+
+.htmlspan {
+    display:flex;
+    justify-content: flex-start;
+}
+
+h5 .skillsicon {
+    font-size:0.7em !important;
+    margin-right:5px;
+}
+
+.skillsiconssql {
+    margin-bottom:7px !important;
+}
+
+
+.navlinks {
+    list-style:none;
+display:flex;
+flex-direction: row!important;
+gap:15px;
+margin-right:15px;
+transition: color 0.7s ease;
+cursor:pointer;
+}
+
+ul.navlinks-overlay {
+    list-style:none !important;
+}
+
+.navlinksanchor {
+    text-decoration: none !important; /* Remove underlines */
+    color: gray
+  }
+  
+  .navlinksanchor:hover {
+    color:#FF6B6B;
+    transition: ease 0.7s;
+  }
+  
+ /* bestemme seg for design...  .navlinksanchor:visited { 
+  
+  }
+
+  */ 
+
+.navlinkwrapper {
+    display:flex;
+    justify-content: flex-end;
+    margin-right:150px;
+    margin-top:40px;
+    font-size: 1.15em;
+    transition: color 0.7s ease;
+}
+
+.linkdivider {
+    padding:0.2px;
+    background-color:#FF6B6B;
+    max-height:15px;
+    margin-top:3px;
+}
+
+.mainsection {}
+
+svg {
+    height:25px;
+    width:25px;
+}
+
+.fa-solid {
+    height:1px;
+    width:1px;
+}
+
+h3,h4,h5 {
+    font-size:1.8em !important;
+}
+ul {
+    padding-left: 0 !important;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    font-size:0.9em;
+    
+    }
+
+
+    /* skills icons */
+    .fa-brands {
+        color:#FF6B6B;
+        font-size:20px;
+
+    }
+
+    .icon-database {
+        color:#FF6B6B;
+        font-size:40px;
+        margin-right:-10px !important;
+    }
+
+
+    /*section 3*/
+
+.aboutmewrapper {
+    display:flex;
+    justify-content: center;
+    margin-top:300px;
+    flex-direction:column;
+}
+
+.aboutmeh6 {
+    justify-content: center;
+    display:flex;
+    color:#FF6B6B;
+}
+
+.biography {
+    text-align:left;
+    width:80%;
+    margin-left:70px;  
+}
+
+
+
+    .socialswrapper {
+        padding-top:3px;
+        margin-left:20px;
+        display:flex;
+        gap:15px;
+        cursor:pointer;
+        
+
+    }
+    .fab {
+        transition: color 0.7s ease; 
+        font-size:0.9em;
+      }
+      
+      .fab:hover {
+        color: #FF6B6B; 
+      }
+
+
+
+      /* Section 4*/ 
+
+      .section4 {
+        margin-top:100px;
+        padding-bottom:50px;
+      }
+
+   .educationheading {
+    color:#FF6B6B;
+    margin-left:40px;
+    margin-top:40px;
+   }
+
+   .certifications {
+    margin-left:36px;
+    color:#FF6B6B;
+   }
+
+   .rightul {
+    margin-left:38px;
+   }
+
+   .rightlistitem {
+    margin-bottom:0px;
+    font-size:1.2em;
+   }
+
+   .leftlistitem {
+    margin-bottom:0px;
+    font-size:1.2em;
+   }
+
+   .leftul {
+    margin-left:42px;
+   }
+
+   .utdanning {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+   }
+
+
+
+    /* Overlay on mobile */
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #070a13;
+        z-index: 1000;
+        text-align:left;
+      }
+
+      .linksoverlaywrapper {
+        display:flex;
+        justify-content: center !important;
+        align-items: center;
+        text-align:left;
+        width:100%;
+      }
+    
+      .navlinks-overlay {
+        color:#FF6B6B;
+        font-size:3em;
+        text-transform:uppercase;
+        gap:10px;
+        animation-duration:1.5s;
+        animation-name:colorshift;
+        text-align:left !important;
+        letter-spacing:2px;
+        display:flex;
+        width:100% !important;
+        align-items:center;
+      }
+
+      @keyframes colorshift {
+        from {color:#fff; }
+        to {color:#FF6B6B;}
+
+      }
+
+.socialsoverlaywrapper {
+    font-size:3em;
+    color:#FF6B6B;
+    display:flex;
+    gap:15px;
+    margin-bottom:50px;
+    justify-content: center;
+    animation-duration:1.5s;
+    animation-name:colorshift;
+}
+
+.overlayactive {
+    color:#FF6B6B !important;
+}
+
+.socialsanchor {
+    text-decoratioN: none! important;
+    color:#FF6B6B;
+}
+
+.nav-item:hover {
+    color:#FF6B6B;
+    transition:ease 0.7s;
+}
+
+.active {
+ color:#FF6B6B !important;
+
+  }
+@keyframes colorshiftactive {
+    from {color:#fff; }
+    to {color:#FF6B6B;}
+
+  }
+
+      .linksoverlaywrapper {
+        display:flex;
+        flex-direction:column;
+        justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+        height:70vh;
+      }
+
+      
+/* Hamburger mobile */
+.hamburger{
+    display:flex;
+    justify-content: end;
+    padding-right:20px;
+    padding-top:10px;
+   
+}
+.hamburgeroverlay{
+    display:flex;
+    justify-content: end;
+    padding-right:20px;
+    padding-top:50px;
+   
+}
+
+/* COntact info */
+.contactinfo {
+    height:500px !important;
+    margin-top:16px;
+}
+
+
+
+/* Contact form */
+
+
+.contactme {
+    text-align:left;
+    display:flex;
+    justify-content: left;
+    text-transform:uppercase;
+    font-weight:bold !important;
+    color:white;
+    font-size:2em;
+}
+
+.fa-location-dot, .fa-envelope {
+    display:flex;
+    justify-content: left;
+    color:#FF6B6B;
+}
+
+.fa-envelope {
+    padding-right:7px !important;
+}
+
+.contactme i {
+    display: inline; 
+    margin-right: 35px; 
+    font-size:35px;
+    margin-bottom:35px;
+  }
+
+.formcontainer {
+    display:flex;
+    width:auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #FF6B6B;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 26px;
+    resize: vertical;
+    background-color: transparent;
+    color:white;
+
+  }
+
+  input[type=text], #fname, #lname, #email {
+    color:white;
+  }
+
+  
+input[type=email]{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #FF6B6B;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 12px;
+    resize: vertical;
+    background-color:transparent;
+
+  }
+  
+  /*submit button*/
+  input[type=submit] {
+    background-color: #FF6B6B;
+    border-radius:20px;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top:15px;
+  }
+
+  input[type=submit]:hover {
+    background-color: red;
+    border-radius:20px;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top:15px;
+  }
+
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #ffffff;
+    border-radius:20px;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+
+    
+      /* Show the mobile overlay when the menu is active */
+      .menu-active .overlay {
+        display: block;
+      }
+
+
+/* custom scrollbar */ 
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+  max-height:20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF6B6B;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* MEDIA QUERIES*/
+
+/* mobile */
+@media (max-width: 768px) {
+    .navlinks {
+      display: none;
+    }
+
+    .formcontainer {
+        margin-bottom:16px;
+    }
+
+    .socialswrapper {
+        display:none;
+    }
+
+
+    .linkdivider {
+        display:none;
+    }
+
+    .kontakt-container {
+        margin-bottom:150px !important;
+    }
+  
+.imagewrapper {
+    display:flex;
+    justify-content: center !important;
+
+}
+
+.talkbutton {
+    background-color: #FF6B6B !important;
+    text-align:center;
+    color: rgb(255, 255, 255) !important;
+    z-index:999;
+  }
+
+
+#hamburgerclose {
+    margin-right:5px;
+}
+
+.skills {
+    display:flex;
+    justify-content: center !important;
+    flex-direction:column;
+    margin-left:700px;
+}
+
+.skillsheading {
+    margin-left:80px;   
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.aboutmebio {
+    display:none;
+}
+
+.section2 {
+    margin-bottom:0;
+}
+
+.skillswrapper {
+    margin-bottom:0;
+}
+
+.aboutmeh6 {
+    margin:0;
+    display:flex;
+    justify-content: center;
+    padding:0;
+    text-align:center;
+}
+
+.section3 {
+    margin:0;
+    display:flex;
+    justify-content: center;
+    padding:0;
+    text-align:center;
+    flex-direction:column;
+    margin-right:px;
+}
+
+.biography {
+    margin-left:35px;
+    padding:0;
+}
+
+.leftlistitem, .rightlistitem {
+    margin-bottom:5px;
+    display:flex;
+    font-size:1em;
+    margin-left:45px;
+}
+
+.rightlistitem {
+    margin-left:45px !important;
+}
+
+
+.educationheading {
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    margin-bottom:5px;
+}
+
+.rightlistitem{
+    margin:0;
+    margin-left:20px;
+}
+
+.leftul, .rightul {
+    margin:0;
+    padding:0;
+}
+
+#rightcolumn {
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    font-size:1.8em !important;
+    margin-bottom:5px;
+}
+
+.educerskillswrapper {
+    display:flex;
+    justify-content: center;
+    margin-left:-200px;
+    align-items: center;
+
+}
+
+.skillsheading {
+    margin:0;
+    padding:0;
+    margin-left:100px;
+}
+
+html {
+    overflow-x:hidden;
+}
+
+.certificationwrapper {
+    margin-bottom:30px !important;
+}
+
+
+
+
+
+
+
+
+@keyframes html {
+    100% {
+        width:50%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width:46%;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        width:20%;
+    }
+}
+@keyframes mysql {
+    100% {
+        width:50%;
+    }
+}
+
+
+
+
+  }
+
+@media screen and (min-width: 992px) {
+    /* Hide the hamburger icon on larger screens */
+    .hamburger {
+      display: none;
+    }
+
+    .hamburgeroverlay {
+        display:none;
+    }
+
+    .navlinks-overlay {
+        display:none;
+    }
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for medium-sized screens */
+.hamburger {
+    padding-top:50px;
+}
+    .navlinkwrapper {
+        display:none;
+    }
+
+    .buttonwrapper {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+
+    .imagewrapper {
+        margin:0;
+        padding:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .biography {
+        margin:0;
+        padding:0;
+        width:100%;
+        line-height:1.3em;
+        hyphens:auto;
+    }
+ 
+.workcontainer {
+    padding-left:0px !important;
+    padding-right:60px !important;
+}
+  }
+
+
+  @media screen and (min-width: 1025px) {
+    /* Styles for full-screen (large) */
+
+    .aboutmebio {
+        margin-bottom:50px;
+        font-size:1.2em;
+        display:flex;
+        justify-content: flex-start;
+        max-width:75%!important;
+        min-width:75% !important;
+    }
+
+    .aboutmeheading {
+        display:flex;
+        justify-content: flex-start;
+        margin-left:280px;
+        font-size:3em !important;
+        text-transform:uppercase;
+        color:#FF6B6B;
+    }
+
+    .section1wwrapper{
+        display:flex !important;
+        justify-content: flex-start !important;
+    }
+
+    .section1inner {
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+
+.buttonwrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagewrapper {
+    margin-left:110px;
+}
+
+#biopicture {
+    height:300px;
+    filter:sepia(20%);  
+
+}
+  }
+
+
+  
+
+  @media (min-width: 769px) and (max-width: 1199px) {
+#biopicture {
+    margin-right:100px;
+}
+.educerskillswrapper {
+    margin-left:-100px;
+}
+
+.educationheading {
+    margin-left:70px;
+}
+
+.leftul {
+    margin-left:70px;
+}
+
+    @keyframes html {
+        100% {
+            width:70%;
+        }
+    }
+    
+    @keyframes css {
+        100% {
+            width:66%;
+        }
+    }
+    
+    @keyframes javascript {
+        100% {
+            width:20%;
+        }
+    }
+    @keyframes mysql {
+        100% {
+            width:70%;
+        }
+    }
+
+  }
+
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+.imagewrapper {
+    margin-left:90px;
+}
+
+#rightcolumn {
+    margin-left:65px;
+}
+
+#biopicture {
+    margin-bottom:20px !important;
+    margin-top:80px;
+}
+
+
+
+.skillsheading {
+    margin-left:120px;
+}
+
+.rightul {
+    margin-left:65px;
+}
+
+@keyframes html {
+    100% {
+        width:50%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width:46%;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        width:20%;
+    }
+}
+@keyframes mysql {
+    100% {
+        width:50%;
+    }
+}
+
+
+
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+ #rightcolumn {
+    margin-left:65px;
+ }
+
+ .rightul {
+    margin-left:65px;
+ }
+   
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .educerskillswrapper {
+        margin-left:-120px;
+    }
+
+    #rightcolumn {
+        margin-left:80px;
+     }
+    
+     .rightul {
+        margin-left:80px;
+     }
+
+     .leftul {
+        margin-left:80px;
+     }
+
+     .educationheading {
+        margin-left:80px;
+     }
+       
+  }
+
+  @media only screen and (max-width: 600px) {
+    .button {
+     margin-left:0px !important;   
+    }
+
+    .buttonwrapper {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+.workcontainer {
+    padding-bottom:200px;
+}
+
+  }

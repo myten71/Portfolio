@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Simen W. Nysæther - Portfolio</title>
+	<link href="stylesheet/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
+
+</head>
+<body>
+
+	<!---mobile overlay-->
+	<div class="overlay">
+		<div class="hamburgeroverlay">
+			<!-- Close button with onclick to close the overlay -->
+			<svg id="hamburgerclose" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6" onclick="closeOverlay()">
+			  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		  </div>
+		  <div class="linksoverlaywrapper">
+			<ul class="navlinks-overlay">
+				<li class="nav-item-overlay"><a class="navlinksanchor active" href="index.html">Home</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="contact.html">Contact</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="work.html">Work</a></li>
+			  </ul>
+	</div>
+	<div class="socialsoverlaywrapper">
+		<a class="socialsanchor"><i class="fab fa-instagram"></i></a>
+		<a class="socialsanchor"><i class="fab fa-facebook"></i></a>
+		<a class="socialsanchor"><i class="fab fa-linkedin"></i></a>
+	</div>
+	  </div>
+	
+	<header>
+		<div class="navlinkwrapper">
+			<ul class="navlinks">
+				<li class="nav-item-overlay"><a class="navlinksanchor active" href="index.html">Home</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="contact.html">Contact</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="work.html">Work</a></li>
+			  </ul>
+		<div class="linkdivider"></div>
+		<div class="socialswrapper">
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	</div>
+		<div onclick="toggleOverlay()" class="hamburger"><!---Heroicons.com---><svg id="hamburgericon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+			<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+		  </svg>
+		  
+		  </div>
+	</header>
+	<div class="container mainsection">
+<div class="row">
+	<div class="col-md-6">
+	<section class="section1">
+		<div class="section1wwrapper">
+			<div class="section1inner">
+				<div class="imagewrapper">
+		<img alt="Profilbilde av Simen" id="biopicture" src="img/simen4.jpeg">
+	</div>
+		<h1 id="name">Hi, I'm Simen <i id="wave" class="em-svg em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i></h1>
+
+	<h2 id="title">front-end web developer.</h2>
+	<p>Passionate about new tech, top-notch user experiences and the internet</p>
+	<div class="buttonwrapper">
+	<a href="mailto:simennysaether@live.no" class="button">Let's talk</a>
+</div>
+
+</div>
+</div>
+</section>
+</div>
+
+<div class="col-md-6">
+<section class="section2">
+<div id="skillswrapper" class="container">
+	<div class="row skillrow">
+		<div class="educerskillswrapper">
+<div class="col-md-3 skills">
+	<h4 class="skillsheading">Skills</h4>
+	<h5 class="skillsicons"> <i class="fa-brands fa-html5"></i> HTML</h5>
+	<div class="progress-bar">
+		<div class="html"><span class="htmlspan"></span></div>
+		</div>
+		<h5 class="skillsicons" > <i class="fa-brands fa-css3-alt"></i> CSS</h5>
+		<div class="progress-bar">
+			<div class="css"><span class="cssspan"></span></div>
+			</div>
+			<h5 class="skillsiconssql"><i class="icon-database"></i> MySql</h5>
+			<div class="progress-bar">
+				<div class="mysql"><span class="sqlspan"></span></div>
+				</div>
+			<h5 class="skillsicons"><i class="fa-brands fa-square-js"></i>JScript</h5>
+		<div class="progress-bar">
+			<div class="javascript"><span class="javaspan"></span></div>
+			</div>
+</div>
+</div>
+	</div>
+	
+</div>
+</div>
+</section>
+</div>
+</div>
+
+
+<div class="container secondsection">
+	<div class="row">
+		<div class="col-md-6">
+<section class="section3">
+	<h6 class="aboutmeh6">About me</h6>
+	<p class="biography">
+		I'm a passionate individual on a journey towards a fulfilling career in frontend development. At 30 years old, I've embarked on this path with unwavering enthusiasm, driven by my love for technology and design. Currently, I'm pursuing a degree in computer science at the esteemed University of Bergen, where I'm gaining a solid academic foundation to complement my practical skills.
+	
+		One of the key highlights of my journey is the dedication I've poured into self-study. I firmly believe that self-driven learning is the cornerstone of success in the ever-evolving tech world. Over the years, I've invested countless hours honing my skills in HTML, CSS, and JavaScript. These three pillars of web development have become second nature to me, allowing me to create beautiful, interactive, and responsive web interfaces.
+
+	</p>
+
+</section>
+		</div>
+
+	<div class="col-md-6 utdanning">
+		<section class="section5">
+			<h6 class="educationheading">Education</h6>
+			<ul class="leftul">
+				<li class="leftlistitem">BSc Information Science @ UiB</li>
+				<li class="leftlistitem">MSc Courses @ Tilburg School of Economcis</li>
+				<li class="leftlistitem">BSc Marketing Management @ BI Bergen</li>
+			</ul>
+		</section>
+
+	<section class="section5">
+		<h6 id="rightcolumn" class="certifications">Certifications</h6>
+		<ul class="rightul">
+			<li class="rightlistitem">Responsive Webdesign</li>
+			<li class="rightlistitem">JavaScript Data Structures & Algorithms</li>
+			<li class="rightlistitem">IELTS Academic English - 7.5/9</li>
+		</ul>
+	</section>
+</div>
+</div>
+
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="overlay.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Assignment 3</title>
+	<link href="stylesheet/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+</head>
+<body>
+
+	<!---mobile overlay-->
+	<div class="overlay">
+		<div class="hamburgeroverlay">
+			<!-- Close button with onclick to close the overlay -->
+			<svg id="hamburgerclose" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6" onclick="closeOverlay()">
+			  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		  </div>
+		  <div class="linksoverlaywrapper">
+			<ul class="navlinks-overlay">
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="index.html">Home</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor active" href="contact.html">Contact</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="work.html">Work</a></li>
+			  </ul>
+	</div>
+	<div class="socialsoverlaywrapper">
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	  </div>
+	
+	<header>
+		<div class="navlinkwrapper">
+			<ul class="navlinks">
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="index.html">Home</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor active" href="contact.html">Contact</a></li>
+				<li class="nav-item-overlay"><a class="navlinksanchor" href="work.html">Work</a></li>
+			  </ul>
+		<div class="linkdivider"></div>
+		<div class="socialswrapper">
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	</div>
+		<div onclick="toggleOverlay()" class="hamburger"><!---Heroicons.com---><svg id="hamburgericon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+			<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+		  </svg>
+		  
+		  </div>
+	</header>
+	<div class="contactouterwrap">
+		<div class="container contactwrapper">
+			<div class="row contactrow">
+				<div class="col-md-6 kontakt-container">
+					<h1 class="contactme"><i class="fa-solid fa-location-dot"></i> Visit me!</h1>
+					<!-- Flex container for map and contact form -->
+					<div class="contactinfo">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.256453583404!2d5.3243418!3d60.391442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cfea9cb716873%3A0x9ff59aa79e27994!2sOlav%20Kyrres%20gate%2023%2C%205014%20Bergen!5e0!3m2!1sno!2sno!4v1694822020590!5m2!1sno!2sno" width="100%" height="585px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+					<div class="col-md-6">
+						<h1 class="contactme"><i class="fa-solid fa-envelope"></i> Contact Form</h1>
+						<div class="formcontainer">
+							<form action="contact.php" method="post">
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" name="firstname" placeholder="Your name..">
+							
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+								
+								<label for="email">Email</label>
+								<input type="email" required id="email" name="email" placeholder="Your e-mail">
+								
+								<label for="subject">Subject</label>
+								<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+							
+								<input type="submit" value="Submit">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="overlay.js"></script>
+</body>
+</html>

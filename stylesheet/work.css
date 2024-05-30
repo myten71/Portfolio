@@ -1,0 +1,84 @@
+.workcontainer {
+    display:flex;
+    flex-direction:row;
+    height:60vh !important;
+    align-items: center;
+gap:30px;
+margin:0;
+}
+
+@media (max-width: 768px) {
+    .workcontainer {
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .col-md-4 {
+        width: 70%; 
+    }
+}
+
+
+
+/* Project buttons */
+
+.projectbutton {
+    background-color:  #FF6B6B;
+    border:1px solid #FF6B6B;
+    color:white;
+    margin-top:50px;
+    height:50px;
+    width:100%;
+
+}
+
+.buttonwrapper {
+    display:flex;
+    flex-direction:row;
+}
+
+/* work images */ 
+
+.workimage {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    width:100%;
+    height:auto;
+}
+
+/* headings */
+
+.col-md-4 h1,
+.col-md-4 h2,
+.col-md-4 h3 {
+    font-size: 24px !important; 
+    font-weight: bold; 
+    text-transform:uppercase !important;
+    color:#fff;
+}
+
+/* custom cards.. */
+.work1, .work2, .work3 {
+    background-color: white;
+    cursor:pointer;
+}
+
+
+/* Column hover effects */
+
+.col-md-4 {
+  
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); 
+}
+
+.col-md-4:hover {
+    
+    transform: scale(1.05); 
+    filter: drop-shadow(4px 4px 10px rgba(255, 107, 107, 0.7));
+}
+
+

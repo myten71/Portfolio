@@ -1,0 +1,80 @@
+body {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+#title {
+    margin-bottom:10px;
+    margin-top:0px;
+}
+
+h1 {    color:white;
+    margin-top:10px;
+    font-size:50px;
+}
+
+#ramme {
+    background-color:#FFFDFA;
+    padding-bottom:20px;
+
+}
+
+#ramme2 {
+    background-color:#00010f;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    height:100%;
+    opacity:80%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-bottom:10px;
+}
+
+h2 {
+    color:white;
+}
+
+p {
+    color:white;
+    font-size:15px;
+}
+
+.btn {
+    background-color:#00010f;
+    margin-top:20px;
+    border-radius:5px;
+    border:2px solid black;
+}
+
+#target1{
+    margin-top:20px;
+    
+}
+
+i {
+
+    color:#004e92;
+}
+
+#knapper {
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+#title {
+    background-color:#00010f;
+    opacity:80%;
+    color:white;
+}
+
+
+
+#tittel {
+    margin-bottom:20px;
+}
+

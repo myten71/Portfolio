@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ScandoLand</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+  <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    });
+  </script>
+<div class="container">
+  <div class="row align-items-center">
+    <div class="column">
+      <img  id="target1" src="https://static.posters.cz/image/750/innrammede-plakater-the-notorious-b-i-g-ready-to-die-i106779.jpg" style="height:350px; margin-top:40px;" class="center-block img-responsive"/>
+      <div id="knapper" class="row text-center btn-grp knapperamme">
+        <button class="btn btn-lg btn-default"><i class="fa fa-backward"></i></button>
+        <button class="btn btn-lg btn-default"><i class="fa fa-play"></i></button>
+        <button class="btn btn-lg btn-default"><i class="fa fa-pause"></i></button>
+        <button class="btn btn-lg btn-default"><i class="fa fa-forward"></i></button>
+  <h2>Scando Track list</h2>
+  <p>Fjorden Fusion</p>
+  <p>Love u down</p>
+  <p>Make You Feel Good</p>
+  <p>WEEKN boyz</p>
+</div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
