@@ -79,8 +79,8 @@ text-align:left !important;
 }
 
 .workdivider {
-    height:1px;
-    color:#da5a52;
+    height:10px;
+    background-color:#da5a52;
     width:100%;
 }
 
