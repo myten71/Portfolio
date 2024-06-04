@@ -79,9 +79,11 @@ text-align:left !important;
 }
 
 .workdivider {
-    height:10px;
+    height:100px;
     background-color:#da5a52;
     width:100%;
+    z-index:1001;
+    color:#da5a52;
 }
 
 .projectinfo {
