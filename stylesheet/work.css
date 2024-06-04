@@ -78,6 +78,12 @@ height:200px;
 text-align:left !important;
 }
 
+.workdivider {
+    height:1px;
+    color:#da5a52;
+    width:100%;
+}
+
 .projectinfo {
     width: 100%;
     max-width: 800px;
