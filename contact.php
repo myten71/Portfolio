@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
    
-    $to = "simen@simennysaether.no";
+    $to = "admin@simennysaether.io";
 
     $email_subject = "Contact Form Submission from $fname $lname";
 
